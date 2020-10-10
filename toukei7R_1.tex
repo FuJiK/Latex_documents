@@ -1,0 +1,90 @@
+% toukei７Ｒ.tex
+\documentclass[a4paper]{jarticle}
+\usepackage{amsmath,amssymb,latexsym}
+\pagestyle{empty}
+%印刷部分の大きさの指定
+\setlength{\topmargin}{-50pt}
+\setlength{\oddsidemargin}{-3mm}
+\setlength{\evensidemargin}{-3mm}
+\setlength{\textheight}{25cm}
+\setlength{\textwidth}{14.5cm}
+\setlength{\footskip}{6mm}
+\begin{document}
+\begin{center}
+   {\large\bf 推定のレポート問題}
+\end{center}
+正規分布，ｔ－分布，カイ2乗分布それぞれのパーセント点の値
+$z_{\alpha}$, $t_{\alpha}(n)$, $\chi_{\alpha}^2(n)$ については
+統計学のテキスト（たとえば「統計学演習」村上正康他著，倍風館，付表203，
+205，206ページを参照，あるいはホームページに
+http://www.math.s.chiba-u.ac.jp/~yasuda/index-j.htm）
+には載っている。パスワードは授業で発表している。
+
+
+\vspace{2ex}
+
+{\bf 問１．} \hspace{0.5em}
+平均$\mu$,分散$\sigma^2$をもつ母集団から，大きさ３の標本$X_1,X_2,X_3$
+を得たとき，
+$$
+\begin{array}{ll}
+  T_1 & = X_1, \\
+  T_2 & = \dfrac{X_1+X_3}{2}, \\
+  T_3 & = \dfrac{X_1+X_2+X_3}{3} 
+\end{array}
+$$
+つぎの問いに答えよ。
+\begin{itemize}
+  \item[(1)]
+   いづれも平均 $\mu$ の不偏推定量であることを示せ。
+  \item[(2)]
+   これらの分散を計算して，このなかでは $T_3$ が
+   もっとも分散が小さくなることを示せ。
+\end{itemize}
+
+
+\vfil
+
+{\bf 問２．} \hspace{0.5em}
+\begin{itemize}
+ \item[(1)] つぎの命題を示せ。
+   $a,b,c > 0, a + b + c = 1 $ のとき，$a^2 + b^2 + c^2 $ が
+   最小となるのは, $a= b= c= 1/3$ であることを示せ。
+ \item[(2)]
+   平均 $\mu$, 分散 $\sigma^2$ をもつ母集団から，大きさ３の標本
+   $X_1,X_2,X_3$ を得たとき，
+   $ T = a X_1 + b X_2 + c X_3$ 
+   が $\mu$ の不偏推定量と
+   なるためにはどういう条件があればよいか？　
+   またそのとき最小となる分散を計算せよ。
+\end{itemize}
+
+\vfil
+
+{\bf 問３．} \hspace{0.5em}
+あるクラス$40$人の試験得点分布は正規分布にしたがうという。
+得点の平均が$58.2$, 標準偏差は$10.3$であった。
+母平均の$90\%$信頼区間を求めよ。
+
+\vfil
+
+{\bf 問４．} \hspace{0.5em}
+平均がゼロという正規母集団から大きさ10の
+標本$X_i,i=1,2,\cdots,10$
+を抽出した。データの和と2乗和を計算すると，
+$\sum_{i=1}^{10} X_i = 3.192,
+\sum_{i=1}^{10} X_i^2 = 37.983,$
+であった。このとき，分散の９５\%信頼区間を
+求めよ。
+
+
+\vfil
+
+{\bf 問５．} \hspace{0.5em}
+ある集団の喫煙率を調べるために，３００人に質問を
+したところ，72人が喫煙をしていた。このとき，集団の
+喫煙率に対する，９０\%信頼区間を求めよ。
+
+\vfil
+
+\end{document}
